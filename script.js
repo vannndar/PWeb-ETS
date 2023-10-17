@@ -7,7 +7,7 @@ $(document).ready(function() {
         
         for(let x in bio){
             const element = document.createElement('div');
-            element.classList.add('col-400px-3', 'col-md-6', 'mb-4');
+            element.classList.add('col-xl-3', 'col-md-3', 'mb-4');
             const element2 = document.createElement('div');
             element2.classList.add('card', 'border-left-primary' , 'border-0', 'border-start','border-5', 'border-primary', 'shadow', 'h-100', 'py-2');
             const element3 = document.createElement('div');
